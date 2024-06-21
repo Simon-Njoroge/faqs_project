@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+    background-position: top;
+    height: 5%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.load{
+    margin: 0% 45%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.load:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: beige;
+}
+.switch{
+    margin-top: 10px;
+    background-color: azure;
+    width: 5%;
+    border-radius: 20px;
+}
+.whole{
+    margin: 0% 25%;
+    background-color: antiquewhite;
+    margin-top: 10%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    height: 400px;
+    display: none;
+}
+.whole::-webkit-scrollbar{
+    display: none;
+}
+.faqs{
+    display: flex;
+    gap: 15px;
+}
+.head1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.head1 p{
+    color: black;
+    font-weight: bold;
+}
+.head1 p:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+.head1 img{
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+.data p{
+    margin-top: 10px;
+    color: grey;
+    display: none;
+}
+.data2 p{
+    margin-top: 10px;
+    color: grey;
+    display: none;
+}
+.data3 p{
+    margin-top: 10px;
+    color: grey;
+    display: none;
+}
+.data4 p{
+    margin-top: 10px;
+    color: grey;
+    display: none;
+}
+.switched{
+ background-color: black;
+}
+.switched .whole{
+    background-color: black;
+    color: bisque;
+   }
+   .switched .whole{
+    background-color: black;
+    color: bisque;
+   }
+.switched .head1 p{
+    color: burlywood;
+}
+.switched  .head1 p:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+.switched .switch img{
+    position: relative;
+    right: -35px;
+    transition: right .5s ease-in-out;
+}
+.switched .attribution{
+   color: bisque;
+} 
+.showing .data p{
+    display: block;
+}
+.showing2 .data2 p{
+    display: block;
+}
+.showing3 .data3 p{
+    display: block;
+}
+.showing4 .data4 p{
+    display: block;
+}
+.hide .data p{
+    display: none;
+}
+.hide2 .data2 p{
+    display: none;
+}
+.hide3 .data3 p{
+    display: none;
+}
+.hide4 .data4 p{
+    display: none;
+}
+.attribution{
+    margin: 0% 25%; 
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+.showall .whole{
+    display: block;
+}
+.showall  .attribution{
+   
+    display: block;
+}
+.showall .load{
+    display: none;
+}
+@media only  screen and (max-width:768px) {
+    body{
+        background-image: url("./assets/images/background-pattern-mobile.svg");
+        background-position: top;
+        background-size: 100%;
+    } 
+    .whole{
+    margin: 0% 10%;
+    background-color: antiquewhite;
+    margin-top: 20%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    height: 400px;
+}
+.head1{
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+} 
+}
+   
+   
+   
+   
